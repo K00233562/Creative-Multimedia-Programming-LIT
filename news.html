@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ellen Culloo Creative Multimedia Programming</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	
+<header id='main-header'>
+	
+<div class= "right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></div> 
+	<div class= "left"><button onclick="location.href='signUp.html';" style="width:auto;">Sign Up</button></div>	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+	  
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+	
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
+	<div class= "searchInput">
+		
+		<form style="text-align: right">
+			<p><input type="text" name="search" placeholder="Search.."></p>
+        </form>
+  
+    </div>
+
+  <div class='container'>
+    
+	  <a class='logo' href='#'><img alt='Deezer' src='img/LIT-logo-tag-1.png' width="150" height="150">LIT Flexible Learning</a>
+    	<nav>
+      	<a href="index.html">Home</a>
+      	<a class="active" href="news.html">Modules</a>
+		<a href="events.html">Campus Life</a>
+      	<a href="about.html">Contact Us</a>
+    	</nav>
+  </div>
+	
+</header>
+
+<body>
+			
+<div class='container' id='news'>
+  
+	<article>
+		<h2> Web Development</h2><br><br>
+    <p>Web development broadly refers to the tasks associated with developing websites for hosting via intranet or Internet. The Web development process includes Web design, Web content development, client-side/server-side scripting and network security configuration, among other tasks</p>
+    <a class='button' href='story.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+	
+  <article>
+		<h2>Web Programming</h2><br><br>
+    <p>Web programming refers to the writing, markup and coding involved in Web development, which includes Web content, Web client and server scripting and network security. The most common languages used for Web programming are XML, HTML, JavaScript, Perl 5 and PHP. </p>
+    <a class='button' href='story1.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+	
+  <article>
+		<h2>Interactive Multimedia Design</h2><br><br>
+      <p>Interaction design is a process in which designers focus on creating engaging web interfaces with logical and thought out behaviors and actions. Successful interactive design uses technology and principles of good communication to create desired user experiences</p>
+    <a class='button' href='story2.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+
+	<article>
+		<h2>Multimedia Digital Video</h2><br><br>
+    <p>Digital Video is a module that teaches the fundamentals of video framing and production. It focuses on creating a narrative and communicating messages/themes effectively through the medium of film.</p>
+    <a class='button' href='story3.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+	
+	<article>
+		<h2>3D Graphics</h2><br><br>
+    <p>Three-dimensional computer graphics (3D computer graphics, in contrast to 2D computer graphics) are graphics that use a three-dimensional representation of geometric data (often Cartesian) that is stored in the computer for the purposes of performing calculations and rendering 2D images.</p>
+    <a class='button' href='story4.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+     </div>
+      <div class='container' id='news'>
+    <article>
+        <h2>Human Cognition & Commu</h2><br><br>
+    <p>It covers a broad range of topics such as language, visual perception, attitudes and emotions, and body language to name a few. It is diverse, interesting and is used to provide better understanding of how humans interact with each other and technology.
+</p>
+    <a class='button' href='story5.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+
+    
+    <article>
+        <h2>Multimedia Database Systems & Design</h2><br><br>
+    <p>A Multimedia database (MMDB) is a collection of related multimedia data. The multimedia data include one or more primary media data types such as text, images, graphic objects (including drawings, sketches and illustrations) animation sequences, audio and video.
+</p>
+    <a class='button' href='story6.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+    
+    <article>
+		<h2>Advanced Web Programming</h2><br><br>
+    <p>Web programming refers to the writing, markup and coding involved in Web development, which includes Web content, Web client and server scripting and network security. The most common languages used for Web programming are XML, HTML, JavaScript, Perl 5 and PHP. </p>
+    <a class='button' href='story7.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+    
+    <article>
+		<h2>Emerging Web Technologies</h2><br><br>
+    <p>This module is a kind of continuation of first semesters 'Web Devlopment' and I still feel it is one of the most important subjects of the course. In this module we learn all about Responsive Web Design, more advanced use of HTML and CSS, and SEO!
+
+</p>
+    <a class='button' href='story8.html'>
+      <span>Continue Reading</span>
+    </a>
+        
+  </article>
+    
+    <article>
+		<h2> Interactive Interface Design</h2><br><br>
+    <p>User interface design (UI) or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.</p>
+    <a class='button' href='story9.html'>
+      <span>Continue Reading</span>
+    </a>
+  </article>
+	
+</div>
+	
+	
+<div id='main-footer'>
+	<a class='button' href='https://www.facebook.com/'><img alt='Facebook' src="img/Facebook.png" width="50"></a>
+	<a class='button' href='https://www.instagram.com/?hl=en'><img alt='Instagram' src="img/instagram.png" width="50"></a>
+	<a class='button' href='https://twitter.com/?lang=en'><img alt='Twitter' src="img/twitter.png" width="50"></a>
+	<a class='button' href='https://create.snapchat.com/'><img alt='Snapchat' src="img/snapchat.png" width="50"></a>
+  <p>Ellen Culloo&copy 2018</p>
+</div>
+	
+	</body>
+</html>
