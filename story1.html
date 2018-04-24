@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+	
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Web Programming_Creative Multimedia Programming</title>
+        <meta name="description" content="An overview of Creative multimedia programming.">
+        <meta name="keywords" content="creative, multimedia, programming, LIT, html, css, databases,web development, digital video, springboard">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="google6ff2f0e5e9b32f9f">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+	
+	
+<header id='main-header'>
+	
+<div class= "right"><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></div>
+	<div class= "left"><button onclick="location.href='signUp.html';" style="width:auto;">Sign Up</button></div>	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+	  
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container1">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+	
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
+	<div class= "searchInput">
+		
+		<form style="text-align: right">
+			<p><input type="text" name="search" placeholder="Search.."></p>
+        </form>
+  
+    </div>
+
+  <div class='container'>
+    
+	  <a class='logo' href='#'><img alt='Deezer' src='img/LIT-logo-tag-1.png' width="150" height="150">LIT Flexible Learning</a>
+    	<nav>
+      	<a class="active" href="index.html">Home</a>
+      	<a href="news.html">Modules</a>
+		<a href="events.html">Campus Life</a>
+      	<a href="about.html">Contact Us</a>
+    	</nav>
+  </div>
+	
+</header>
+
+<body>
+    
+	<div id='stories1'>
+	<div>
+        <h1><u>Web Programming</u></h1>
+		<h3>Overview</h3><p> 
+Web programming refers to the writing, markup and coding involved in Web development, which includes Web content, Web client and server scripting and network security. The most common languages used for Web programming are XML, HTML, JavaScript, Perl 5 and PHP. Web programming is different from just programming, which requires interdisciplinary knowledge on the application area, client and server scripting, and database technology.(Source)
+
+This is a module that is dedicated to Javascript. It covers all the basics and shows how to implement Javascript on websites for interactivity and validation.
+
+What is JavaScript? An object-oriented computer programming language commonly used to create interactive effects within web browsers</p>
+
+<h3>Continuous Assessment</h3><p> 
+This module does not have an exam but a series of 'Labs' which are Javascript questions which you have to program. The last assignment is a validation project worth 40%</p>
+
+<h3>Insiders Hints and Tips</h3><p> 
+Depending on what educational background you come from this subject could be the most difficult of the first semester. It requires learning the basics of coding languages and it can be very difficult to grasp at first. You will be consistently challenged with each Lab Practical getting increasingly more difficult but you will be surprised with your ability and how much you have learned by the end of it. Personally this took a long time to click with me but if you take a systematic approach, ask for learning support if needed and make sure to ask the help of your lecturer you will grasp it.
+		<br><br>
+		</p>
+      </div>
+	</div>
+	
+	<div id='main-footer'>
+	<a class='button' href='https://www.facebook.com/'><img alt='Facebook' src="img/Facebook.png" width="50"></a>
+	<a class='button' href='https://www.instagram.com/?hl=en'><img alt='Instagram' src="img/instagram.png" width="50"></a>
+	<a class='button' href='https://twitter.com/?lang=en'><img alt='Twitter' src="img/twitter.png" width="50"></a>
+	<a class='button' href='https://create.snapchat.com/'><img alt='Snapchat' src="img/snapchat.png" width="50"></a>
+  <p>Ellen Culloo&copy 2018</p>
+</div>
+	
+</body>
+
+</html>
